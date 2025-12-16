@@ -30,7 +30,7 @@ REVT/
 
 프로그램의 사용 방법은 다음과 같다.
 
-https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sharing
+https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sharing (최종 수정 날짜: 2025-12-16)
 
 2-1. 제공된 ZIP 파일을 먼저 다운로드한다.<br>
 ![2-1](https://github.com/haeun0908/REVT/blob/main/images/2-1.png)
