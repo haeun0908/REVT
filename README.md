@@ -112,7 +112,7 @@ https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sha
 4-6. 재검사
 - 검사하고자 할 때는 '다시 검사하기' 버튼을 눌러 검사를 재진행할 수 있다.
 
-![이미지 설명](이미지_경로)
+![이미지 설명](이미지_경로)<br>
 ![이미지 설명](이미지_경로)
 
 ---
