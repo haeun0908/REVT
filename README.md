@@ -33,19 +33,19 @@ REVT/
 https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sharing
 
 2-1. 제공된 ZIP 파일을 먼저 다운로드한다.<br>
-![2-1](https://github.com/haeun0908/REVT/blob/main/images/2-1.jpg)
+![2-1](https://github.com/haeun0908/REVT/blob/main/images/2-1.png)
 
 2-2. 다운로드한 ZIP 파일의 압축을 해제한다.<br>
-![2-2](https://github.com/haeun0908/REVT/blob/main/images/2-2.jpg)
+![2-2](https://github.com/haeun0908/REVT/blob/main/images/2-2.png)
 
 2-3. 압축 해제 후 생성된 폴더 안에서 아래의 경로를 따라 이동한다.
 ```
 \dist\app.exe
 ```
-![2-3](https://github.com/haeun0908/REVT/blob/main/images/2-3.jpg)
+![2-3](https://github.com/haeun0908/REVT/blob/main/images/2-3.png)
 
 2-4. app.exe 파일을 더블 클릭하여 실행한다.<br>
-![2-4](https://github.com/haeun0908/REVT/blob/main/images/2-4.jpg)
+![2-4](https://github.com/haeun0908/REVT/blob/main/images/2-4.png)
 
 2-5. 잠시 기다리면 웹 브라우저가 자동으로 열리며, 프로그램 화면이 표시된다.<br>
 ![2-5](https://github.com/haeun0908/REVT/blob/main/images/2-5.png)
@@ -113,8 +113,7 @@ https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sha
 - 검사하고자 할 때는 '다시 검사하기' 버튼을 눌러 검사를 재진행할 수 있다.
 
 4-7. 결과 화면
-![4-7 (1)](https://github.com/haeun0908/REVT/blob/main/images/4-7%20(1).png)<br>
-![4-7 (2)](https://github.com/haeun0908/REVT/blob/main/images/4-7%20(2).jpg)
+![4-7](https://github.com/haeun0908/REVT/blob/main/images/4-7.png)
 
 ---
 
