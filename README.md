@@ -30,6 +30,8 @@ REVT/
 
 프로그램의 사용 방법은 다음과 같다.
 
+https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sharing
+
 2-1. 제공된 ZIP 파일을 먼저 다운로드한다.<br>
 ![이미지 설명](이미지_경로)
 
