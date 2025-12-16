@@ -118,4 +118,13 @@ https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sha
 ---
 
 ## Ⅴ. 참고 문헌
+
 [1] 느림보쌤, (2020), "수용.표현어휘력 검사/REVT", https://m.blog.naver.com/lsh85277/222130881990
+
+---
+
+## Ⅵ. Contributors
+
+- 김하은 (ha2un0908@naver.com)
+- 진유빈 (kyua5568@naver.com)
+- 진승빈 (jinsb54@naver.com)
