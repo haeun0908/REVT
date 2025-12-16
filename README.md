@@ -112,7 +112,7 @@ https://drive.google.com/drive/folders/1kJX7Ax_HaOQ99bkzK_hB7Rh6Q7XdL295?usp=sha
 4-6. 재검사
 - 검사하고자 할 때는 '다시 검사하기' 버튼을 눌러 검사를 재진행할 수 있다.
 
-4-7. 결과 화면
+4-7. 결과 화면<br>
 ![4-7](https://github.com/haeun0908/REVT/blob/main/images/4-7.png)
 
 ---
