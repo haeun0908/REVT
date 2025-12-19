@@ -1,0 +1,22 @@
+<!-- start.html 파일이 templates 폴더 안에 있어야 한다 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>검사 시작</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>수용 어휘력 검사 (REVT)</h2>
+  <form method="post">
+    <label for="age" style="font-size:1.1rem; margin-bottom:4px;">나이</label>
+    <input type="number" name="age" id="age" min="2" max="16" required placeholder="예: 7">
+    <button type="submit">검사 시작하기</button>
+  </form>
+  <p style="margin-top:24px; color:#64748b; font-size:1rem;">
+    ※ 수용 어휘 검사만 실시하는 경우 표현 어휘 검사의 시작문항을 따른다.<br>
+    2~4세: 1번, 5~6세: 16번, 7~9세: 46번, 10~12세: 91번, 13세 이상: 121번
+  </p>
+</body>
+</html>

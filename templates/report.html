@@ -1,0 +1,45 @@
+<!-- report.html 파일이 templates 폴더 안에 있어야 한다 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>검사 완료</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>✅ 검사 완료!</h2>
+  <p>아래 버튼을 눌러 결과 리포트를 저장할 수 있어요.</p>
+  <form action="/download_report" method="get">
+    <button type="submit">📄 결과 리포트 저장하기 (PDF)</button>
+  </form>
+  {# 기초선/최고한계선 정보 출력 #}
+  {% if base_index %}
+    <p style="color:#2563eb; font-weight:600;">
+      기초선: {{ base_index }}번
+      {% if base_word %} ({{ base_word }}){% endif %}
+    </p>
+  {% endif %}
+  {% if limit_index %}
+    <p style="color:#ef4444; font-weight:600;">
+      최고한계선: {{ limit_index }}번
+      {% if limit_word %} ({{ limit_word }}){% endif %}
+    </p>
+  {% endif %}
+  {% if wrong_items %}
+    <h3>❌ 오답 문항</h3>
+    <ul>
+      {% for label, word in wrong_items %}
+        <li>
+          <strong>{{ label }}번:</strong> {{ word }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p style="color: #10b981; font-weight: bold;">
+      🎉 모든 문항을 정답으로 응답하셨어요!
+    </p>
+  {% endif %}
+  <a href="/reset">🔄 다시 검사하기</a>
+</body>
+</html>

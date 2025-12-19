@@ -1,0 +1,121 @@
+/* style.css 파일이 static 폴더 안에 있어야 한다 */
+
+body {
+  font-family: 'Malgun Gothic', '맑은 고딕', Arial, sans-serif;
+  background: #f7fafc;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h2, h3 {
+  color: #2563eb;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 18px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+form {
+  background: #fff;
+  max-width: 380px;
+  margin: 32px auto 0 auto;
+  padding: 28px 22px 22px 22px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(59, 130, 246, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+input[type="number"] {
+  padding: 12px 14px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input[type="number"]:focus {
+  border: 1.5px solid #2563eb;
+  background: #f0f9ff;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px) scale(1.03);
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin: 18px auto 0 auto;
+  font-size: 1.08rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: 18px auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.07);
+  width: 120px;
+  background: #f1f5f9;
+}
+
+div[style*="color: red;"] {
+  color: #ef4444 !important;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 24px;
+}
+
+ul {
+  max-width: 380px;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 1.08rem;
+}
+
+p {
+  text-align: center;
+  color: #334155;
+  font-size: 1.13rem;
+}
+
+@media (max-width: 600px) {
+  form {
+    max-width: 98vw;
+    padding: 16px 4vw 12px 4vw;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+}
